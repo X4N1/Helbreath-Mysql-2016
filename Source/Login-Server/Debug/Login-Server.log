@@ -1,0 +1,38 @@
+﻿Build started 4/5/2016 1:25:16 PM.
+     1>Project "C:\Users\Anthony\Desktop\Mysql 2016\Source\Login-Server\Login-Server.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt char\Client.cpp char\item\Item.cpp char\PartyManager.cpp GameServer.cpp LoginServer.cpp main.cpp net\Msg.cpp net\XSocket.cpp
+         XSocket.cpp
+         Msg.cpp
+         main.cpp
+         LoginServer.cpp
+     1>c:\users\anthony\desktop\mysql 2016\source\login-server\loginserver.cpp(3934): warning C4018: '<' : signed/unsigned mismatch
+         GameServer.cpp
+         PartyManager.cpp
+         Item.cpp
+         Client.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Resources.res" res\Resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anthony\Desktop\Mysql 2016\Source\Debug\Login-Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Anthony\Desktop\Mysql 2016\Source\Debug\Login-Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anthony\Desktop\Mysql 2016\Source\Debug\Login-Server.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\Client.obj
+         Debug\Item.obj
+         Debug\PartyManager.obj
+         Debug\GameServer.obj
+         Debug\LoginServer.obj
+         Debug\main.obj
+         Debug\Msg.obj
+         Debug\XSocket.obj
+         libs\libmysql.lib
+         libs\StrTok.lib
+         libs\WINMM.LIB
+         libs\WS2_32.LIB
+         libs\WSOCK32.LIB
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Login-Server.vcxproj -> C:\Users\Anthony\Desktop\Mysql 2016\Source\Debug\Login-Server.exe
+     1>Done Building Project "C:\Users\Anthony\Desktop\Mysql 2016\Source\Login-Server\Login-Server.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.10
